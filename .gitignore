@@ -1,0 +1,17 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+# jupyter notebook related files
+IoT_plotting_notebook.ipynb
+.ipynb_checkpoints
+
+# the actual database file (for privacy)
+weather_data.db
+
+# other files not to include
+plot_sensor_data.py
+readme.txt
+
+__pycache__/
+*.pyc
